@@ -15,8 +15,8 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 import os
 import gdown
 
-MODEL_PATH = "resnet50_strokesense_best.h5"
-GDRIVE_FILE_ID = "18Y9zL4RHiUdPhAuDoSyob1e8bCuIUGMA"
+MODEL_PATH = "resnet50_strokesense_best.keras"
+GDRIVE_FILE_ID = "1-vd_hwpqAMOad4dNhpxb-9sAkaJhLBO9"
 
 if not os.path.exists(MODEL_PATH):
     gdown.download(f"https://drive.google.com/uc?id={GDRIVE_FILE_ID}", MODEL_PATH, quiet=False)
