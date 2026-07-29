@@ -1,0 +1,8 @@
+streamlit
+tensorflow==2.15.0
+pydicom
+numpy
+Pillow
+scikit-learn
+pandas
+gdown
